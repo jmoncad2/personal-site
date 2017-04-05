@@ -1,8 +1,84 @@
 body {
-    background-color: #582707;
+    background-color: #601700;
 }
 
-.navbar-inverse {
-    background-color: #972D07;
-    border: 1px solid #FFB20F;
+#wrapper {
+    width: 100%;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+#pg2 {
+    margin-top: 15%;
+    background-color: #00A676;
+    border: 1px solid #00A676;
+    width: 100%;
+    height: 800px;
+}
+
+#pg3 {
+    background-color: #E0D0C1;
+    border: 1px solid #E0D0C1;
+    width: 100%;
+    height: 800px;
+}
+
+#pg4 {
+    background-color: #601700;
+    border: 1px solid #601700;
+    width: 100%;
+    height: 800px;
+}
+
+h1 {
+    color: #00A676;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+#box {
+    color: #00A676;
+    text-align: center;
+    border: 1px solid #00A676;
+    width: 20%;
+    height: 400%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2em;
+    margin-top: 2%;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #00A676;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.chage .bar3 {
+    -webkit-transform: rotate(-45deg) translate(-8px, -8px);
+    transform: rotate(-45deg) translate(-8px, -8px);
+}
+
+.ph {
+    display: block;
+    width: 20%;
+    height: 20%;
+    margin: auto;
 }
