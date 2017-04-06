@@ -7,21 +7,54 @@
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/welcome.css">
     <script type="text/javascript" src="welcome.js"></script>
+    <script src="https://use.fontawesome.com/62cab6c948.js"></script>
+    <link rel="stylesheet" href="font-mfizz-2.4.1/font-mfizz.css">
 </head>
-<body id="wrapper">
-<div class="wrapbar" onclick="myFunction(this)">
-    <div class="bar1"></div>
-    <div class="bar2"></div>
-    <div class="bar3"></div>
+<body>
+<div class="media">
+    <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+    <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+    <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
 </div>
-<h1>
-    Name Here
-</h1>
-<img class="ph" src="img/user-6.png" alt="photo">
-<div id="box">Filling this box with creative info about me.
+<div id="wrapper">
+    <div class="wrapbar" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+    <h1 class="grntext">
+        Name Here
+    </h1>
+    <img id="ph" src="img/user-6.png" alt="photo">
+    <!-- Summary Columns -->
+    <div class="summary">
+        <img class="imgsum" src="img/document.png" alt="summary">
+        <h2 id="info">Summary</h2>
+    </div>
+    <div class="summary">
+        <img class="imgsum" src="img/list.png" alt="checked list">
+        <h2 id="core">Core Skills</h2>
+    </div>
+    <div id="infobox">Filling this box with creative info about me.
+    </div>
 </div>
-<div id="pg2"></div>
-<div id="pg3"></div>
+<div id="pg2">
+    <ul class="ck">
+        <li><i class="fa fa-check-square-o" aria-hidden="true"></i> - Java <i class="icon-java-bold"></i></li>
+        <li><i class="fa fa-check-square-o" aria-hidden="true"></i> - CSS <i class="fa fa-css3" aria-hidden="true"></i>
+        </li>
+        <li><i class="fa fa-check-square-o" aria-hidden="true"></i> - HTML <i class="fa fa-html5"
+                                                                              aria-hidden="true"></i></li>
+        <li><i class="fa fa-check-square-o" aria-hidden="true"></i> - JavaScript <i class="icon-javascript-alt"></i>
+        </li>
+    </ul>
+</div>
+<div id="pg3">
+    <img id="pjt" src="img/app.png" alt="project">
+    <h3 id="pj1">Project 1</h3>
+    <h3 id="pj2">Project 2</h3>
+    <h3 id="pj3">Project 3</h3>
+</div>
 <div id="pg4"></div>
 </body>
 </html>
